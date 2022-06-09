@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="media.css" rel="stylesheet">
+    <title>Landing Page / Refugiados </title>
+</head>
+<body>
+    <header>
+      
+        <div id="title"> 
+            <img id="uk" src="assets/logo.png"> 
+            <H1> Refugiados</H1>
+            <h2>Ajude um Refugiado</h2>
+        </div>
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#sobre"><li>Sobre nós</li></a>
+            <a href="#contato" id="inscreva-se-btn"><li>Cadastro</li></a>
+        </ul>
+    </header>
+    <main>
+        <aside>
+            <h2> <span>A Ucrania Precisa de você! </span> </h2>
+            <h2>Acolha hoje milhares de familias desabrigadas por uma das maiores crises humanitárias da Europa!</h2>
+            <p>Todos os dias milhares de pessoas buscam fugir da atual guerra que ocorre no leste da Europa, nossa organização busca ajudar essas pessoas a buscarem novos locais para se estabelecerem longe da guerra</p>
+            <p id="Inscrever">Inscreva-se Abaixo Para Receber Notificações</p>
+              <form> 
+                 <input type="text" placeholder="Nome">
+                 <input type="email" placeholder="E-mail">
+                 <input type="submit" value="Enviar">
+              </form>   
+        </aside>
+        <article>
+            <img src="assets/familias.jpg" alt="familia-Ucrania">
+        </article>
+    </main>
+
+     <section  id="sobre">
+                <h2>Sobre Nós</h2>
+                  <p>Nossa organização tem como objetivo auxiliar quem deseja ajudar refugiados ucranianos a se refugiarem em um local diferente, garantindo auxilio para os mesmos da melhor forma que conseguirmos.
+                    <br><br> A nossa organização não tem fins lucrativos e busca apenas dar auxilio humanitários para esses individuos, visando sua proteção e garantindo a segurança fisica dos mesmos! <br> <br>
+                    Trabalhando com foco em familias ou individuos do sexo feminino e seus filhos, nossa organização trabalha com o objetivo de levar refugiados para o mundo inteiro <br><br>
+                    Junte-se a nós como um colaborador para o resgate, tratamento e preservação cultural de familias inteiras que passam nessessidades resultantes dessa guerra vivida por diversas familias <br><br>
+                    Inscreva-se abaixo e faça já parte dessa força de auxilio!! 
+                </p>
+     </section> 
+     <section class="contato" id="contato">
+         <div class="box">
+         <form action="">
+             <fieldset> 
+                 <legend><b>Insceva-se aqui</b></legend>
+                <br>
+                <div class="inputBox" >
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome">Nome </label>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="nome">Email</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="Senha" id="senha" class="inputUser" required>
+                    <label for="nome">Senha</label>
+                </div>
+                <div>
+                    <label for="data_nascimento"> <b>Data de Nascimento:</b></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" class="data_nascimento" required> 
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade">Cidade</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado">Estado</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="endereço" id="endereço" class="inputUser" required>
+                    <label for="endereço">Endereço</label>
+                </div>
+                <input type="submit" name="submit" id="submit">
+             </fieldset>
+         </form>
+         </div>
+     </section>
+    <footer> A Ucrânia agradece sua ajuda <br>
+            @Copyright Save.Uk 
+          </div>
+    </footer>
+    <link href="scripts.js">
+</body>
+</html>
